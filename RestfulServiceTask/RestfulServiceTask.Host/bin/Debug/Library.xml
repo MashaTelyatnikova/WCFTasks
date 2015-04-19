@@ -2,6 +2,7 @@
 <Root>
   <Year>
 		2014
-	</Year>
-  <Year>2017</Year>
+		<Magazine name="VOGUE" month="June"><Article text="text1" title="title1" author="author1" /><Article text="text2" title="title2" author="author2" /></Magazine><Magazine name="NylonMagazine" month="October"><Article text="text1" title="title1" author="author1" /><Article text="text2" title="title2" author="author2" /></Magazine><Magazine name="NylonMagazine" month="September"><Article text="text1" title="title1" author="author1" /><Article text="text2" title="title2" author="author2" /></Magazine><Magazine name="ItalianVogue" month="June"><Article title="lol" text="nlk" author="Masha" /></Magazine></Year>
+  <Year>2017<Magazine name="ItalianVogue" month="June"><Article title="lol" text="nlk" author="Masha" /></Magazine></Year>
+  <Year>2015</Year>
 </Root>

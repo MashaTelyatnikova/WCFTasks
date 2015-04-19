@@ -20,7 +20,7 @@ namespace RestfulServiceTask.MagazineService
         Article[] GetArticles(string year, string magazineName, string month);
 
         [WebInvoke(Method = "POST", UriTemplate = "SaveMagazine/{year}", RequestFormat = WebMessageFormat.Json,
-            ResponseFormat = WebMessageFormat.Xml, BodyStyle = WebMessageBodyStyle.Bare)]
-        void SaveMagazine(string year, Magazine magazine);
+            ResponseFormat = WebMessageFormat.Json, BodyStyle = WebMessageBodyStyle.Bare)]
+        string SaveMagazine(string year, Magazine magazine);
     }
 }

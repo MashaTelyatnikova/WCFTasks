@@ -1,4 +1,5 @@
-﻿using RestfulServiceTask.Data;
+﻿using System.Linq;
+using RestfulServiceTask.Data;
 
 namespace RestfulServiceTask.MagazineService
 {
@@ -24,17 +25,45 @@ namespace RestfulServiceTask.MagazineService
 
         public string[] GetMagazineNames(string year)
         {
-            throw new System.NotImplementedException();
+            int y;
+            if (int.TryParse(year, out y) && Library.ContainsYear(y))
+            {
+                
+                return
+                    Library.GetMagazinesAtYear(y)
+                        .Select(magazine => string.Format("{0}({1})", magazine.Name, magazine.ReleaseMonth))
+                        .ToArray();
+            }
+            return null;
         }
 
         public Article[] GetArticles(string year, string magazineName, string month)
         {
-            throw new System.NotImplementedException();
+            int y;
+            if (int.TryParse(year, out y) && Library.ContainsYear(y))
+            {
+                return Library.GetMagazine(y, magazineName, month).Articles.ToArray();
+            }
+
+            return null;
         }
 
-        public void SaveMagazine(string year, Magazine magazine)
+        public string SaveMagazine(string year, Magazine magazine)
         {
-            throw new System.NotImplementedException();
+            int y;
+            if (int.TryParse(year, out y) && Library.ContainsYear(y) && magazine != null)
+            {
+                if (Library.ContainsMagazine(y, magazine))
+                {
+                    return "Magasine already exist.";
+                }
+
+                Library.AddMagazine(y, magazine);
+
+                return "Magazine successfully added.";
+            }
+
+            return "Incorrect data";
         }
     }
 }
