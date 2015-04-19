@@ -1,0 +1,5 @@
+c:\users\asus\documents\visual studio 2013\Projects\RestfulServiceTask\RestfulServiceTask.MagazineService\bin\Debug\RestfulServiceTask.MagazineService.dll
+c:\users\asus\documents\visual studio 2013\Projects\RestfulServiceTask\RestfulServiceTask.MagazineService\bin\Debug\RestfulServiceTask.MagazineService.pdb
+c:\users\asus\documents\visual studio 2013\Projects\RestfulServiceTask\RestfulServiceTask.MagazineService\obj\Debug\RestfulServiceTask.MagazineService.csprojResolveAssemblyReference.cache
+c:\users\asus\documents\visual studio 2013\Projects\RestfulServiceTask\RestfulServiceTask.MagazineService\obj\Debug\RestfulServiceTask.MagazineService.dll
+c:\users\asus\documents\visual studio 2013\Projects\RestfulServiceTask\RestfulServiceTask.MagazineService\obj\Debug\RestfulServiceTask.MagazineService.pdb
