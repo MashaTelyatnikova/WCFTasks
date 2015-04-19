@@ -45,6 +45,12 @@
     <Compile Include="MagazineService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RestfulServiceTask.Data\RestfulServiceTask.Data.csproj">
+      <Project>{5AEF65BF-E306-4829-A084-ACE45710C6B0}</Project>
+      <Name>RestfulServiceTask.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

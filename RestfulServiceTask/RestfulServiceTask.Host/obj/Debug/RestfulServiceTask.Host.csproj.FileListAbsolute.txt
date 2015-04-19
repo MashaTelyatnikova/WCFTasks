@@ -9,3 +9,10 @@ c:\users\asus\documents\visual studio 2013\Projects\RestfulServiceTask\RestfulSe
 C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\bin\Debug\RestfulServiceTask.Host.exe.config
 C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\obj\Debug\RestfulServiceTask.Host.exe
 C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\obj\Debug\RestfulServiceTask.Host.pdb
+C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\bin\Debug\RestfulServiceTask.Host.exe
+C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\bin\Debug\RestfulServiceTask.Host.pdb
+C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\bin\Debug\RestfulServiceTask.MagazineService.dll
+C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\bin\Debug\RestfulServiceTask.Data.dll
+C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\bin\Debug\RestfulServiceTask.MagazineService.pdb
+C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\bin\Debug\RestfulServiceTask.Data.pdb
+C:\Users\asus\Desktop\WCF\RestfulServiceTask\RestfulServiceTask.Host\obj\Debug\RestfulServiceTask.Host.csprojResolveAssemblyReference.cache

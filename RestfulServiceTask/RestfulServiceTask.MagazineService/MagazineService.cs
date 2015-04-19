@@ -4,14 +4,22 @@ namespace RestfulServiceTask.MagazineService
 {
     public class MagazineService :IMagazineService
     {
+        private static readonly ILibrary Library = new Library();
         public int[] GetYears()
         {
-            return new[] {1, 2, 3};
+            return Library.GetYears();
         }
 
         public string SaveYear(string year)
         {
-            return "Already exist";
+            int y;
+            if (int.TryParse(year, out y))
+            {
+                Library.AddYear(y);
+                return "Year successfully added.";
+            }
+
+            return "Incorrect year.";
         }
 
         public string[] GetMagazineNames(string year)

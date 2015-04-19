@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulServiceTask.Magazine
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulServiceTask.Host", "RestfulServiceTask.Host\RestfulServiceTask.Host.csproj", "{70CCF07D-FEA2-4FF8-A930-0E73271D47EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestfulServiceTask.Data", "RestfulServiceTask.Data\RestfulServiceTask.Data.csproj", "{5AEF65BF-E306-4829-A084-ACE45710C6B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{70CCF07D-FEA2-4FF8-A930-0E73271D47EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70CCF07D-FEA2-4FF8-A930-0E73271D47EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70CCF07D-FEA2-4FF8-A930-0E73271D47EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AEF65BF-E306-4829-A084-ACE45710C6B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AEF65BF-E306-4829-A084-ACE45710C6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AEF65BF-E306-4829-A084-ACE45710C6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AEF65BF-E306-4829-A084-ACE45710C6B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
